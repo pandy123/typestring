@@ -1,2 +1,2 @@
-import { TypeString } from "./TypeString";
-export { TypeString as TypeString };
+import { StringBuffer } from "./StringBuffer";
+export { StringBuffer as StringBuffer };

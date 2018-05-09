@@ -1,5 +1,5 @@
 
-export class TypeString {
+export class StringBuffer {
    /**字符的存储列表 */
    private _values: Array<string>;
 
@@ -21,7 +21,7 @@ export class TypeString {
     * 追加一个数组字符串
     */
 
-   public pushArray(arr: Array<string>, offset: number = 0): TypeString {
+   public pushArray(arr: Array<string>, offset: number = 0): StringBuffer {
       for (var i = 0, count = arr.length; i < count; i++) {
          var index = i + offset;
          if (arr[index]) {
@@ -35,7 +35,7 @@ export class TypeString {
     * 追加一个字符串
     * @param str 
     */
-   public pushString(str: string): TypeString {
+   public pushString(str: string): StringBuffer {
       this._values.push(str);
       return this;
    }
@@ -44,7 +44,7 @@ export class TypeString {
     * 追加字符串后，加入换行符
     * @param arr 
     */
-   public pushLine(...arr: Array<string>): TypeString {
+   public pushLine(...arr: Array<string>): StringBuffer {
       this.pushArray(arr, 0);
       this.pushString('\r\n');
       return this;

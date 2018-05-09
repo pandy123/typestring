@@ -1,6 +1,6 @@
-var TypeString = require('../build').TypeString
+var StringBuffer = require('../build').StringBuffer
 var expect = require('chai').expect
-var stringbuffer = new TypeString()
+var stringbuffer = new StringBuffer()
 describe('字符串添加测试', function() {
     it('添加一个字符', function() {
         stringbuffer.pushString('m')

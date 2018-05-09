@@ -1,6 +1,6 @@
 {
-    "name": "typestring",
-    "version": "1.0.0",
+    "name": "stringtypebuffer",
+    "version": "1.0.1",
     "description": "a class of string",
     "main": "./build/index.js",
     "scripts": {
