@@ -1,6 +1,6 @@
 {
     "name": "stringtypebuffer",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "a class of string",
     "main": "./build/index.js",
     "scripts": {
@@ -24,5 +24,6 @@
     "dependencies": {
         "chai": "^4.1.2",
         "mocha": "^5.1.1"
-    }
+    },
+    "types": ["./build/index.d.ts", "./build/StringBUffer.d.ts"]
 }
