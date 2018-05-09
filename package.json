@@ -1,0 +1,28 @@
+{
+    "name": "typestring",
+    "version": "1.0.0",
+    "description": "a class of string",
+    "main": "./build/index.js",
+    "scripts": {
+        "test": "node ./test/test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pandy123/typestring.git"
+    },
+    "keywords": [
+        "ts",
+        "string",
+        "node"
+    ],
+    "author": "Yanbei.HUANG",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/pandy123/typestring/issues"
+    },
+    "homepage": "https://github.com/pandy123/typestring#readme",
+    "dependencies": {
+        "chai": "^4.1.2",
+        "mocha": "^5.1.1"
+    }
+}
