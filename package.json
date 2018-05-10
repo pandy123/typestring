@@ -1,6 +1,6 @@
 {
     "name": "stringtypebuffer",
-    "version": "1.0.6",
+    "version": "1.0.8",
     "description": "a class of string",
     "main": "./build/index.js",
     "scripts": {
@@ -21,7 +21,7 @@
         "url": "https://github.com/pandy123/typestring/issues"
     },
     "homepage": "https://github.com/pandy123/typestring#readme",
-    "dependencies": {
+    "devDependencies": {
         "chai": "^4.1.2",
         "mocha": "^5.1.1"
     },
